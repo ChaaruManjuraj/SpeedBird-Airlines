@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("logo.png"), url("reg-wall.jpg");
+	background-repeat: no-repeat;
+	background-position: top right, center;
+	background-size: auto, cover;
+	background-attachment: fixed, fixed;
+	z-index: 3,1;
+}
+
+h1 {
+	color: #051a94;
+	//color: ;
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px #73738c;
+}
+
+h2 {
+	color:#051a94;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.table {
+	width: 100%;
+	padding: 20px;
+}
+
+.btn {
+	background-color: #051a94;
+}

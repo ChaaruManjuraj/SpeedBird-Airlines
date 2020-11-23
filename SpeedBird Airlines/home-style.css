@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("logo.png"), url("reg-wall.jpg");
+	background-repeat: no-repeat;
+	background-position: top right, center;
+	background-size: auto, cover;
+	background-attachment: fixed, fixed;
+	z-index: 3,1;
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+h2 {
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	position: relative;
+	right: -650px;
+	top: -30px;
+}
+
+.btn {
+	height: 50px;
+	font-weight: bold;
+	background-color: #D8A436;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Cabin Sketch', cursive;
+	cursor: pointer;
+}

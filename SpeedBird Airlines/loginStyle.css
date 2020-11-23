@@ -1,0 +1,107 @@
+
+
+body{
+	background-image: url("back-image(login).jpg");
+	background-size: cover;
+	background-position: center,;
+	background-repeat: no-repeat;
+
+}
+
+
+.login-text{
+	color: white;
+	background-color: rgba(0,0,0,0.4);//Black w/opacitY/see-through
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top:20%;
+	left:15%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+	width:25%;
+	height: 30%;
+	padding:20px;
+	text-align: center;
+
+	font-family: "Lucida Console", Monaco, monospace;
+
+}
+
+h1{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 30px;
+
+}
+
+input {
+	width: 100%;
+	height: 20px;
+	border: 0.5px, solid white;
+	border-radius: 4px;
+	background-color: #e0e0eb
+}
+
+.button {
+	background-color: #e0e0eb;
+	height: 20px;
+	width: 1in;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	position:relative;
+	top:10px;
+	cursor: pointer;
+
+
+	
+
+}
+.button:hover {
+	background-color: #efeff5;
+	color:black;
+	cursor: pointer;
+}
+
+.register {
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 8px;
+	width: 98.6%;
+	height: 10%;
+	padding:none;
+	position:absolute;
+	bottom: 0.16cm;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 7mm;
+
+}
+
+.button-reg {
+	position: relative;
+	bottom: 2cm;
+	height: 50px;
+	width: 2.5cm;
+	border-radius: 18px;
+	background-color: #ebc634;
+	font-family: Georgia, serif;
+	font-weight: bolder;
+	font-size: 5mm;
+	left: 33cm;
+	cursor: pointer;
+
+}
+
+#logo {
+	color: white;
+	position: absolute;
+	left: 35cm;
+	background-image: url("logo.png");
+	background-size: auto;
+	z-index: 3;
+}
+
